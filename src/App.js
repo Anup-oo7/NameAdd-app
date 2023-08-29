@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
-import styles from "./index.module.css";
+//import styles from "./index1.module.css";
 import NameInput from "./component/inputBox/Index";
 import Header from "./component/Header/Index";
 
@@ -26,7 +26,7 @@ function App() {
         <div className="centre-container">
           <NameInput addList={addList} />
           {listName.map((listItem, ind) => {
-            return <li key={ind} className={styles.listItem}>{listItem}<button className={styles.deleteItem} onClick={()=>deleteHandler(ind)}>Delete</button></li>;
+            return <li key={ind} className="listItem">{listItem}<button className="deleteItem" onClick={()=>deleteHandler(ind)}>Delete</button></li>;
           })}
         </div>
       </div>
