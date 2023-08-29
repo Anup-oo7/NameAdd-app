@@ -9,7 +9,7 @@ function NameInput(props) {
     }
   return (
     <div className="input-container">
-        <input type="text" value={inputText} className={styles.inputBox} placeholder='Enter your Name'
+        <input type="text" value={inputText} className={styles.inputBox} placeholder='Enter your List Name'
            onChange={e=>{setInputText(e.target.value)}}  onKeyDown={onEnterClick}/>
         <button className={styles.addBtn} onClick={()=>{props.addList(inputText)
          setInputText("")}}>Add Name</button>
