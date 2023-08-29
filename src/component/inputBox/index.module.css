@@ -1,0 +1,24 @@
+.inputBox{
+    border: 2px solid rgb(186, 96, 227);
+    height: 40px;
+    width: 50vh;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  .addBtn{
+    height: 54.5px;
+    padding:0.3125rem ;
+    border-radius:0px 10px 10px 0px;
+    position: relative;
+    top: -53.5px;
+    left: 41.9vh;
+    background-color: blueviolet;
+    color: black;
+    color: wheat;
+
+  }
+  .addBtn:hover{
+    cursor: pointer;
+    background-color: rgb(102, 255, 0);
+  }
+  

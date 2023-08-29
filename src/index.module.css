@@ -1,0 +1,28 @@
+.listItem{
+    list-style: none;
+    background-color: orange;
+    height: 30px;
+    width: 49vh;
+    margin-bottom: 10px;
+    padding: 10px;
+    float: left;
+    border: 0.5px solid red;
+    box-shadow: 5px 5px 0px 0px  rebeccapurple;
+    color: rgb(102, 8, 8);
+    font-size: larger;
+    font-weight: 500;
+}
+
+.deleteItem{
+padding: 10px;
+font-size: medium;
+background-color: crimson;
+color: white;
+border-radius: 20px;
+float: right;
+margin-top: -6px;
+}
+.deleteItem:hover{
+    cursor: pointer;
+    background-color: rgb(238, 81, 81);
+}
